@@ -1,7 +1,7 @@
 // Promise has 3 step > 1.Pending  2.Resolved  3.Rejected 
 // promise > He(promise) said he will bring me the data
 
-const myPromise = new Promise((resolve, rejecte) => {
+const myPromise = new Promise((resolve, reject) => {
     // const user = null;
     const user = { id: 1 };
     if (!user) {
