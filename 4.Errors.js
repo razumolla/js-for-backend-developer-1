@@ -19,7 +19,6 @@ function errorHandler(error) {
     console.log(name);
     // console.log(message);
     // console.log(stack);
-
     // logger.error({
     //     name,
     //     message,
