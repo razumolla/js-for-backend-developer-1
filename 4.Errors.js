@@ -1,3 +1,8 @@
+const { errorHandler, two } = require("./errorHandler.js");
+
+// import two from "./errorHandler.js"    //for default export
+
+
 
 async function getData() {
     try {
@@ -7,24 +12,9 @@ async function getData() {
         throw emailError;
 
     } catch (error) {
-        errorHandler(error)
+        // errorHandler(error)
         // console.log(error);
     }
 }
 getData();
-
-function errorHandler(error) {
-    const { name, message, stack } = error;
-    // console.log(error);
-    console.log(name);
-    // console.log(message);
-    // console.log(stack);
-    // logger.error({
-    //     name,
-    //     message,
-    //     stack,
-    // });
-    // console.log("Internal server error!");
-}
-
-console.log("Done!");
+two();

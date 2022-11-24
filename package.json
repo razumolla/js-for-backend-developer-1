@@ -1,0 +1,21 @@
+{
+  "name": "1-js-for-backend-developer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.SyncAsync.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razumolla/js-for-backend-developer-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/razumolla/js-for-backend-developer-1/issues"
+  },
+  "homepage": "https://github.com/razumolla/js-for-backend-developer-1#readme"
+}
